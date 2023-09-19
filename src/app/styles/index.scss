@@ -4,8 +4,8 @@
 @import 'themes/dark.scss';
 
 .app {
-    font-size:  $font-size-m;
-    line-height:  $font-line-m;
+    font-size:  var(--font-size-m);
+    line-height:  var(--font-line-m);
     font-family: $font-family-main;
 
     background-color: var(--bg-color);

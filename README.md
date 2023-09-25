@@ -2,5 +2,5 @@ https://github.com/ults-io/vscode-react-javascript-snippets/blob/HEAD/docs/Snipp
 быстрое создание компонента - rafce
 
 020
-010
+00
 hhh

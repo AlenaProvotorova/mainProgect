@@ -43,10 +43,24 @@ export function buildLoaders({isDev}: BuildOptions): webpack.RuleSetRule[] {
       ],
     }
 
+    const refreshLoader = {
+      test: /\.(?:js|mjs|cjs)$/,
+      exclude: /node_modules/,
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: [
+            ['@babel/preset-env', { targets: "defaults" }]
+          ]
+        }
+      }
+    }
+
     return [
         svgLoader,
         fileLoader,
         typescriptLoader,
-        cssLoader
+        cssLoader,
+        refreshLoader
       ]
 }

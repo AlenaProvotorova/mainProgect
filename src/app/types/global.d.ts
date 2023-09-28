@@ -6,12 +6,12 @@ declare module '*.scss' {
     export = classNames;
   }
 
-  declare module '*.png' 
-  declare module '*.jpeg' 
-  declare module '*.jpg' 
+  declare module '*.png'
+  declare module '*.jpeg'
+  declare module '*.jpg'
   declare module '*.svg' {
     const content: string;
     export default content;
   }
 
-  declare const __IS_DEV__ = true
+declare const __IS_DEV__ = true;

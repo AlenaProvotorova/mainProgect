@@ -2,5 +2,8 @@
     "Язык": "EN",
     "Главная": "Main",
     "О сайте": "About",
-    "Страница не найдена": "Page not found"
+    "Страница не найдена": "Page not found",
+    "Произошла непредвиденная ошибка": "An unexpected error occurred",
+    "Пробросить ошибку": "Throw error",
+    "Обновить страницу": "Update page"
 }

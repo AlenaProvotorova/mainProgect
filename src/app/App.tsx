@@ -1,6 +1,6 @@
 import { classNames } from 'shared/lib/classnames/classNames';
 import { useTheme } from 'app/providers/ThemeProvider';
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';

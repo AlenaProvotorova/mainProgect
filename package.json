@@ -96,6 +96,11 @@
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3"
   },
+  "overrides": {
+    "loki": {
+      "@storybook/react": "$@storybook/react"
+    }
+  },
   "loki": {
     "configurations": {
       "chrome.laptop": {

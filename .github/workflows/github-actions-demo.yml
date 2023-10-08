@@ -7,9 +7,7 @@ on:
     branches: [ main ]
 jobs:
   pipeline:
-    machine:
-      image: ubuntu-1604:201903-01
-    runs-on: ubuntu-latest
+    runs-on:  ubuntu-1604:201903-01
     strategy:
       matrix:
         node-version: [16.x]

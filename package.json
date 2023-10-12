@@ -97,8 +97,8 @@
     "style-loader": "^3.3.3"
   },
   "overrides": {
+    "chrome-remote-interface": "0.31.3",
     "loki": {
-      "chrome-remote-interface": "0.31.3",
       "@storybook/react": "$@storybook/react"
     }
   },

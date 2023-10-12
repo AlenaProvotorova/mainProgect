@@ -10,7 +10,7 @@
 const path = require('path');
 const webpack = require('webpack');
 
-async function createStorybookRuntimeForBrowser(): Promise<boolean> {
+async function createStorybookRuntimeForBrowser() {
     return new Promise((resolve, reject) => {
         webpack(
             {

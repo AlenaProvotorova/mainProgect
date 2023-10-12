@@ -11,15 +11,6 @@ const config: StorybookConfig = {
         '@storybook/addon-interactions',
         '@storybook/addon-styling',
         '@storybook/addon-a11y',
-        // {
-        //     name: '@storybook/addon-styling',
-        //     options: {
-        //         sass: {
-        //         // Require your Sass preprocessor here
-        //             implementation: require('sass'),
-        //         },
-        //     },
-        // },
     ],
     framework: {
         name: '@storybook/react-webpack5',

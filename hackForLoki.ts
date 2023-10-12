@@ -4,7 +4,8 @@
 // the custom template if you are doing a production build of Storybook.
 // That way, your dev version can remain as normal.
 
-// https://github.com/oblador/loki/issues/471
+// https://github.com/oblador/loki/issues/471,
+// also need to watch for https://github.com/oblador/loki/pull/472
 
 import path from 'path';
 import { webpack } from 'webpack';

@@ -7,7 +7,6 @@
     "start": "webpack serve --env port=3001 --",
     "dev": "webpack  --env mode=development",
     "build": "webpack   --env mode=production",
-    "lokiHack": "node ./config/hackForLoki.js",
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:scss": "npx stylelint \"**/*.scss\"",

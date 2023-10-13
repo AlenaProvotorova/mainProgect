@@ -1,11 +1,21 @@
 .AppLink {
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
 }
 
 .primary {
     color: var(--inverted-primary-color);
+
+    svg {
+        fill: var(--inverted-primary-color);
+    }
 }
 
 .secondary {
     color: var(--inverted-secondary-color);
+
+    svg {
+        fill: var(--inverted-secondary-color);
+    }
 }

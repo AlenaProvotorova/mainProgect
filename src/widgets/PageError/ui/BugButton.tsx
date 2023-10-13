@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { Button } from 'shared/ui/Button';
-
 // компонент для тестирования ErrorBoundary
 export const BugButton = () => {
     const { t } = useTranslation();
@@ -17,11 +15,12 @@ export const BugButton = () => {
     }, [error]);
 
     return (
-        <Button
+        <button
+            type="button"
             onClick={hClick}
         >
             {t('Пробросить ошибку')}
-        </Button>
+        </button>
 
     );
 };
